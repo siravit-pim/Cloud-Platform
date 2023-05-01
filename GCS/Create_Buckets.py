@@ -56,7 +56,7 @@ if __name__ == "__main__":
     file_name = input("What's local name to : ")
     gcs_file_name = input("What's gcs file name: ")
 
-    bucket_name = "r2de2-data-lake"
+    bucket_name = "r2de_datalake_test"
 
     if upload.lower() == "upload" or upload.lower() == "u":
         upload_blob(
