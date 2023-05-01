@@ -15,3 +15,6 @@ gsutil cp ws2-output.csv gs://r2de_datalake_test
 
 # download python
 pip3 install google-cloud-storge
+
+# upload file by Python SDK library
+python3 [file]
