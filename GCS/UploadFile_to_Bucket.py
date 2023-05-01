@@ -1,3 +1,4 @@
+# ref:https://cloud.google.com/storage/docs/downloading-objects#client-libraries-download-object
 from google.cloud import storage
 
 def download_blob(bucket_name, source_blob_name, destination_file_name):
