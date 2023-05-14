@@ -1,4 +1,4 @@
-# exercise 1 taskflow (only airflow 2.0 + )
+# exercise 2 taskflow (only airflow 2.0 + )
 import datetime
 from airflow.decorators import dag, task
 from airflow.utils.dates import days_ago
